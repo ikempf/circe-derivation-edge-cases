@@ -1,6 +1,6 @@
 ## Quirks
 
-Using .asJson is super dangerous because of type inference
+Using circe syntax is dangerous because of type inference
 ```
-seal
+input.asJson != (input: Parent).asJson
 ```
