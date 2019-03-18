@@ -22,7 +22,7 @@ object _4AutomaticAdtFlat extends App {
   val jsonObject1 = ObjectEncoder[Parent1].apply(input)
   val jsonObject2 = ObjectEncoder[Child1].apply(input)
 
-  println(jsonObject1)
-  println(jsonObject2)
+  println(jsonObject1) // type
+  println(jsonObject2) // no type
 
 }
